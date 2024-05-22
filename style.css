@@ -40,15 +40,24 @@ div {
   height: 1500px;
 }
 
+.zone6:hover {
+  background-color: blue;
+  transition: background-color 1s;
+}
+
 .zone1,
 .zone2,
 .zone3,
 .zone4,
 .zone5,
-.zone6,
-.zone7,
-.zone8 {
+.zone6 {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+
+.zone6 p {
+  text-align: center;
+  padding: 20px;
 }
