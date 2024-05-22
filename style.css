@@ -20,8 +20,6 @@ div {
 
 .zone1 {
   background-color: rgb(187, 126, 69);
-  grid-column: 2 / -1;
-  grid-row: 3 / -1;
 }
 .zone2 {
   background-color: rgb(238, 24, 24);
@@ -40,6 +38,9 @@ div {
 }
 .zone7 {
   background-color: rgb(126, 29, 42);
+
+  grid-row: 1 / 4;
+  height: 1500px;
 }
 .zone8 {
   background-color: rgb(40, 193, 231);
